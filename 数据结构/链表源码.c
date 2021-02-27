@@ -18,7 +18,7 @@ typedef struct ListNode{
 
 //初始化单链表
 Status List_init(LinkList *L){
-    (*L)=(LinkList)malloc(sizeof(LNode));
+    (*L) = (LinkList)malloc(sizeof(LNode));
     (*L)->next = NULL;
     return OK;
 }
