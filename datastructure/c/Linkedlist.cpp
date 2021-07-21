@@ -135,7 +135,7 @@ int Delete_Elem(LinkList L, int i, ElemType *e){
         LNode *q;
         q = p->next;
         p->next = q->next;
-        e = q->data;
+        *e = q->data;
         free(q);
         return OK;
     }
