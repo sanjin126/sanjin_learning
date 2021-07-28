@@ -4,7 +4,7 @@
  * SequenceList的定义，以后可以用做头文件引入。
  * 
  * 
-*/
+ */
 
 #include <stdio.h>
 #include <stdlib.h> /*malloc函数和free函数*/
