@@ -1,2 +1,4 @@
 #排除所有out文件
 *.out
+bin
+.vscode
