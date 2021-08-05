@@ -1,6 +1,6 @@
 /* 输入年龄，显示年龄对应的秒数 */
 #include <stdio.h>
-
+#include <string.h>
 int main(void)
 {
     double scd_age;
