@@ -30,5 +30,6 @@ int main(void)
     printf("%010d\n",3213213) ;
     printf("%-010d\n",3213213) ; //失效
     printf("%0.2d\n",3213213) ; // 失效
+    printf("%hhd\n", 12345);
     return 0;
 }
