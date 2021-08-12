@@ -12,7 +12,7 @@ typedef struct
 
 int main(void)
 {
-    int *p = (int *)malloc(sizeof(int));
+    int *p;// = (int *)malloc(sizeof(int));
     // p = NULL;
     printf("%d\n", p == NULL);
 
