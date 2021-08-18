@@ -102,8 +102,22 @@ int locateElem(const SqList *L, Elemtype elem)
 /* 插入一个元素 */
 bool insertElem(SqList *L, Elemtype elem, int index)
 {
+// bool insertElem(SqList L, Elemtype elem, int index)
+// {
+//     int i;
+//     if (L.data == NULL || index <0 || index > L.length)
+//         return false;
+//     for (i = L.length-1; i >= index; i--){
+//         L.data[i+1] = L.data[i];
+//     }
+//     L.data[index] = elem;
+//     L.length ++;
+//     return true;
+//    如果不传入L的指针话，那么便无法修改length的值，但是可以修改data域
     int i;
     if (L->data == NULL || index <0 || index > L->length)
+        return false;
+    if (L->length == MAXSIZE) 
         return false;
     for (i = L->length-1; i >= index; i--){
         L->data[i+1] = L->data[i];
@@ -111,6 +125,7 @@ bool insertElem(SqList *L, Elemtype elem, int index)
     L->data[index] = elem;
     L->length ++;
     return true;
+    
 }
 
 /* 删除一个元素 */
@@ -119,7 +134,8 @@ bool deleteElem(SqList *L, int index)
     int i;
     if (L->data == NULL || index <0 || index > (L->length-1))
         return false;
-    for (i = index; i <= L->length-1; i++){
+    // for (i = index; i <= L->length-1; i++){
+    for (i = index; i <= L->length; i++){
         L->data[i] = L->data[i+1];
     }
     L->length --;
@@ -157,6 +173,7 @@ int main(void)
     L.data[1] = 3;
     L.length = 2;
     insertElem(&L, 2, 0);
+    // insertElem(L, 2, 0);
     showSqList(&L);
     deleteElem(&L, 2);
     showSqList(&L);
