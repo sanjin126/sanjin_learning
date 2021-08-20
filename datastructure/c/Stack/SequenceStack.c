@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include "SequenceStack.h"
 
 #define MAXSIZE 100
 #define OVERFLOW -2
@@ -90,6 +91,7 @@ bool Push(SqStack S, ElemType e)
     return true;
 }
 
+/* 请输入数据的地址 */
 bool Pop(SqStack S, ElemType *PtrToData)
 {
     if (IsEmpty(S))
@@ -107,18 +109,18 @@ bool GetStackTop(SqStack S, ElemType *PtrToData) //要使用数据的指针，�
     return true;
 }
 
-int main(void)
-{
-    SqStack S;
-    S = InitStack(S);
-    Push(S, 10);
-    printf("%3d ", GetStackLength(S));
-    ElemType e;
-    GetStackTop(S, &e);
-    printf("%3d ", e);
-    Push(S, 22);
-    Pop(S, &e);
-    printf("%3d ", e);
-    printf("\n");
-    return 0;
-}
+// int main(void)
+// {
+//     SqStack S;
+//     S = InitStack(S);
+//     Push(S, 10);
+//     printf("%3d ", GetStackLength(S));
+//     ElemType e;
+//     GetStackTop(S, &e);
+//     printf("%3d ", e);
+//     Push(S, 22);
+//     Pop(S, &e);
+//     printf("%3d ", e);
+//     printf("\n");
+//     return 0;
+// }
