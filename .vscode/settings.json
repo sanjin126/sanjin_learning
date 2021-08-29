@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.tcc": "c",
+        "cstdlib": "c",
+        "memory": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "stdint.h": "c",
+        "stdint-gcc.h": "c",
+        "atomic": "c",
+        "cstdint": "c",
+        "inttypes.h": "c",
+        "string.h": "c",
+        "float.h": "c",
+        "limits.h": "c",
+        "cmath": "c",
+        "random": "c",
+        "bit": "c",
+        "limits": "c"
+    }
+}
