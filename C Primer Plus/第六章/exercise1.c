@@ -14,6 +14,7 @@ int main(void)
         printf("%2c", letter_arr[i]);
     }
     printf("\n");
+    printf("Hello World!");
 
     return 0;
 }
