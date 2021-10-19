@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "SequenceStack.h"
+
 void Converse(long N, int H);
 
 int main(void)
