@@ -2,11 +2,13 @@ package com.shangguigu.day08;
 
 public class PersonTest {
     public static void main(String[] args) {
-        Person aPerson = new Person();
-        aPerson.showAge();
-        aPerson.study();
-        aPerson.addAge(2);
-        aPerson.showAge();
+        Person p1 = new Person();
+        p1.showAge();
+        p1.study();
+        p1.addAge();
+        p1.showAge();
 
+        Person p2 = new Person();
+        p2.showAge();
     }
 }

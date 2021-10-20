@@ -6,15 +6,14 @@ public class Person {
     int sex;
 
     public void study(){
-        System.out.println("我在学习！");
+        System.out.println("studying");
     }
 
     public void showAge(){
         System.out.println("我"+age+"岁");
     }
 
-    public int addAge(int i){
-        age += i;
-        return age;
+    public void addAge(){
+        age += 2;
     }
 }
