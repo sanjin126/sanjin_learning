@@ -14,6 +14,17 @@ public class Customer {
         System.out.println(cst.getAge()+","+cst.gender);
     }
 
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "name='" + name + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+
     private String name;
     private char gender;
     private int age;

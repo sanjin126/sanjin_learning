@@ -1,5 +1,7 @@
 package com.shangguigu.p2;
 
+
+
 /**
  *
  * 为Customer对象的管理模块，内部用数组管理一组Customer对象，
@@ -8,6 +10,10 @@ package com.shangguigu.p2;
  *
  */
 public class CustomerList {
+
+
+
+
     Customer[] customers = new Customer[10];
     int total = 0; //记录以保存的客户数量
 
@@ -43,6 +49,7 @@ public class CustomerList {
             for (int i = index; i < customers.length ; i++){
                 customers[index] = customers[index+1];
             }
+            total--;
             return true;
         }
     }
