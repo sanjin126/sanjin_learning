@@ -4,7 +4,7 @@ public class Person extends Creature<String> implements Comparable {
     public String name;
     private int age;
 
-    private Person() {
+    public Person() {
         System.out.println("Person()");
     }
 
@@ -33,9 +33,14 @@ public class Person extends Creature<String> implements Comparable {
         System.out.println("你好");
     }
 
-    private void eat() {
-        System.out.println("吃饭");
+    private void eat(String food) {
+        System.out.println("吃饭"+food);
     }
+
+    private static void sleep(){
+        System.out.println("sleep");
+    }
+
 
     @Override
     public String toString() {
