@@ -1,14 +1,14 @@
 package com.shangguigu.day26;
 
-public class Person {
+public class Person extends Creature<String> implements Comparable {
     public String name;
     private int age;
 
-    public Person(){
+    private Person() {
         System.out.println("Person()");
     }
 
-    public Person(String name, int age) {
+    Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -29,11 +29,11 @@ public class Person {
         return age;
     }
 
-    public void show(){
+    public void show() throws RuntimeException{
         System.out.println("你好");
     }
 
-    private void eat(){
+    private void eat() {
         System.out.println("吃饭");
     }
 
@@ -44,4 +44,11 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
+
+    @Override
+    public int compareTo(Object o) {
+        System.out.println("compare");
+        return 0;
+    }
+
 }
