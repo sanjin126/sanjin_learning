@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Tomcat:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5f893d5-b781-439d-b12f-d5a334edecd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaTest/src/com/shangguigu/day08/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/JavaWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaTest/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaTest/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaTest/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaTest/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaTest/out/production/JavaTest/META-INF/JavaTest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaTest/out/production/JavaTest/com/shangguigu/day08/exe1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaTest/out/production/JavaTest/com/shangguigu/day08/exe1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaTest/src/com/shangguigu/day08/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaTest/src/com/shangguigu/day08/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaTest/src/com/shangguigu/day08/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaTest/src/com/shangguigu/day08/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaTest/src/com/shangguigu/day08/exe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaTest/src/com/shangguigu/day08/exe1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/01_html_css.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/01.CSS基本语法.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/02.标签名选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/03.ID选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/04.class类型选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/05.组合选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/06-css常用样式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/1-css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/2-css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/css/3-css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/0-标签语法.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/1.font标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/10.表单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/10.表单提交的细节.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/11.other.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/2.特殊字符.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/3.内联框架.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/3.标题标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/4.超链接.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/5.img标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/6.表格标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/7.表格跨行跨列.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/8.iframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/html/9.列表.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/01_html_css/imgs/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/代码/JavaWeb/JavaWeb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/01_尚硅谷_html&amp;CSS_王振国 - 课堂笔记.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/CSS2.0.chm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/contbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/footerbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/h3allabout.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/h3benefits.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/h3part.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/h3require.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/h3road.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/larchivesspan.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/lresourcesspan.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/lselectbttm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/lselectspan.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/mainbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/prebg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css1/top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css2/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css2/basic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/archives.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/benefits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/bookmark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/bull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/cover_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/cover_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/csszengarden.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/img_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/notes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/participation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/requirements.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/resources.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/roadto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/sowhat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css3/thebeauty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css4/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css4/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css4/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css4/left-bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css4/left-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css4/right-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css4/right.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/css4/trans.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/sample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/html示例/sample.html.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/w3cschool.CHM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/代码提示激活字符.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/去掉换行之类的符号.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/图片资源/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/基本效果.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/浏览器/58.0.3029.110_chrome_installer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/浏览器/Firefox_50.0.0.6152_setup.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/css/01.CSS基本语法.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/css/02.标签名选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/css/03.ID选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/css/04.class类型选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/css/05.组合选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/css/06-css常用样式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/0-标签语法.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/1.font标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/2.特殊字符.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/3.内联框架.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/3.标题标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/4.超链接.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/5.img标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/6.表格标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/7.表格跨行跨列.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/html/8.iframe标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/演示/imgs/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/笔记/项目实战：尚硅谷书城.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/练习/0-标签语法.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/练习/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/练习/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/练习/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html&amp;CSS/练习/helloworld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="235W0jvONNGmFtJtLsRjt8bArhO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML/resource" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML/resource" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.56">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Tomcat_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Tomcat:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Tomcat_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="520273c9-1371-42f5-93df-48c146f7ec20" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="45741" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Tomcat:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5f893d5-b781-439d-b12f-d5a334edecd6" name="Default Changelist" comment="" />
+      <created>1641024207128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641024207128</updated>
+      <workItem from="1641024208662" duration="3568000" />
+      <workItem from="1641105179407" duration="921000" />
+      <workItem from="1641113857380" duration="17000" />
+      <workItem from="1641114069396" duration="4741000" />
+      <workItem from="1641137924057" duration="5739000" />
+      <workItem from="1641195682018" duration="11329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
