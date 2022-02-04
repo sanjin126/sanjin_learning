@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格的添加和删除</title>
+
+    <style>
+        div{
+            text-align: center;
+            margin: 50px;
+        }
+        table {
+            margin: auto;
+            border: darkgray 1px solid;
+            border-collapse: collapse;
+        }
+
+        td,th{
+            text-align: center;
+            width: 100px;
+            padding: 10px;
+            border: darkgray 1px solid;
+        }
+        .over{
+            background-color: orange;
+        }
+        .out{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" id="id" placeholder="请输入编号">
+        <input type="text" id="name" placeholder="请输入姓名">
+        <input type="text" id="gender" placeholder="请输入性别">
+        <input type="button" id="btn_add" value="添加">
+    </div>
+
+    <table id="stu_tb">
+        <caption>学生信息表</caption>
+        <tbody id="stu_bd">
+
+            <tr>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>操作</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>令狐冲</td>
+                <td>男</td>
+                <td><a href="#" id="a1">删除</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>徐凤年</td>
+                <td>男</td>
+                <td><a href="#" id="a2">删除</a></td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+    <script>
+        window.onload = function () {
+            let trs = document.getElementsByTagName("tr");
+            for (let i = 0; i < trs.length; i++) {
+                trs[i].onmouseover = function () {
+                    this.className = 'over';
+                }
+                trs[i].onmouseleave = function () {
+                    this.className = 'out';
+                }
+            }
+        }
+
+
+
+
+        let stuBody = document.getElementById("stu_bd");
+        let a1 = document.getElementById('a1');
+        let a2 = document.getElementById('a2');
+        let id = document.getElementById('id');
+        let name = document.getElementById('name');
+        let gender = document.getElementById('gender');
+        let btnAdd = document.getElementById("btn_add");
+
+        a1.onclick = del;
+        a2.onclick = del;
+        btnAdd.onclick = add;
+
+
+        function del(event){
+            let parent_tr_node = event.target.parentNode.parentNode;
+            stuBody.removeChild(parent_tr_node);
+
+        }
+
+
+        function add(){
+
+            if ( !(id.value && name.value && gender.value) ){
+                alert('null')
+                return;
+            }
+
+
+            let tr = document.createElement('tr');
+            let td_id = document.createElement('td');
+            let td_name = document.createElement('td');
+            let td_gender = document.createElement('td');
+            let td_op = document.createElement('td');
+            let op = document.createElement('a');
+            op.setAttribute('href','#');
+            op.onclick = del;
+            op.innerHTML = '删除';
+
+            td_id.innerHTML = id.value;
+            td_name.innerHTML = name.value;
+            td_gender.innerHTML = gender.value;
+
+            td_op.append(op);
+            tr.append(td_id,td_name,td_gender,td_op);
+            stuBody.append(tr);
+        }
+
+    </script>
+</body>
+</html>

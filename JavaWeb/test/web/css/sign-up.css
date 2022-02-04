@@ -1,0 +1,102 @@
+*{
+    font-family: Arial;
+}
+
+
+
+.main{
+    margin:auto;
+    margin-top: 30px;
+    background-color: white;
+    border: 10px white solid;
+    box-shadow: 0 20px 50px 0 hsla(0,0%,0.64%,0.1);
+
+    width: 450px;
+    height: 500px;
+
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.top{
+    height: 30px;
+}
+
+.tab{
+    float: left;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.tab[title="sign_in"]{
+    color: #e0e3e3;
+
+}
+
+.tab[title="sign_up"]{
+    margin-left: 16px;
+
+}
+
+.dct{
+    border: orange 3px solid;
+    background-color: orange;
+    width: 52px;
+    height: 2px;
+    position: relative;
+    left: 66px;
+    top: 34px;
+}
+
+.input{
+    margin-top: 30px;
+}
+
+.id_code{
+    width: auto;
+    float: left;
+}
+.id_tip{
+    margin-top: 30px;
+    float: right;
+}
+
+.agree{
+    margin-top: 100px;
+    clear: both;
+}
+
+.btn-sign{
+    margin-top: 30px;
+    width: 100%;
+}
+.no-id{
+    margin-top: 15px;
+    color: orange;
+    font-size: 15px;
+}
+.center{
+    text-align: center;
+}
+.tip{
+    color: #cccccc;
+}
+a span{
+    color: orange;
+}
+a span:hover{
+    color: #e78500;
+}
+div>img{
+    margin-top: 10px;
+    position: relative;
+    left: 28%;
+}
+img{
+    float: left;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+

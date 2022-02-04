@@ -1,0 +1,52 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/index.css">
+		<script language="JavaScript" src="js/index.js"></script>
+	</head>
+	<body>
+		<div id="div_container">
+			<div id="div_fruit_list">
+				<div style="width: 90%;margin-top: 100px;margin-right: 8px;text-align: right;margin-left: -105px;">
+					<a th:href="@{/add.html}">添加新纪录</a>
+				</div>
+				<div>
+					<form th:action="@{/fruit.do}" method="get">
+						<input type="hidden" name="search" value="search">
+						<input type="text" name="keyword" th:value="${session.keyword}">
+						<input type="submit" value="搜索">
+					</form>
+				</div>
+				<table id="tbl_fruit">
+					<tr>
+						<th class="w20">名称</th>
+						<th class="w20">单价</th>
+						<th class="w20">库存</th>
+						<th>操作</th>
+					</tr>
+					<tr th:if="${#lists.isEmpty(session.fruitList)}">
+					<td colspan="4">数据为空</td>
+					</tr>
+					<!--/*@thymesVar id="fruit" type="com.sanjin.bean.Fruit"*/-->
+					<!--/*@thymesVar id="fruitList" type="java.util.List<com.sanjin.bean.Fruit>"*/-->
+					<tr th:unless="${#lists.isEmpty(session.fruitList)}" th:each="fruit : ${session.fruitList}">
+						<td >
+						<a th:href="@{/fruit.do(fid=${fruit.fid},operate='edit')}" th:text="${fruit.fname}" ></a></td>
+						<td th:text="${fruit.price}">苹果</td>
+						<td th:text="${fruit.fcount}">苹果</td>
+
+						<td><img src="imgs/del.jpg" class="delImg" th:onclick="|delFruit(${fruit.fid})|"/></td>
+					</tr>
+					</table>
+					<div style="text-align: center;width: 100%">
+						<button onclick="page(1)" >首页</button>
+						<button th:onclick="|page(${session.pg-1})|" th:disabled="${session.pg==1}">上一页</button>
+						<button th:onclick="|page(${session.pg+1})|" th:disabled="${session.pg==session.pgCount || session.pgCount==0}">下一页</button>
+						<button th:onclick="|page(${session.pgCount})|" th:disabled="${session.pg==session.pgCount || session.pgCount==0}">尾页</button>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

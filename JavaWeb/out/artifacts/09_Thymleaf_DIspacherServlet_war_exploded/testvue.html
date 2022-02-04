@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script language="JavaScript" src="js/vue.js"></script>
+
+<body>
+<h1 id="app">{{message}}</h1>
+
+</body>
+<script>
+    let argumentJson = {
+
+        // el用于指定Vue对象要关联的HTML元素。el就是element的缩写
+        // 通过id属性值指定HTML元素时，语法格式是：#id
+        "el":"#app",
+
+        // data属性设置了Vue对象中保存的数据
+        "data":{
+            "message":"Hello Vu!"
+        }
+    };
+
+    let app = new Vue(argumentJson);
+
+</script>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业三</title>
+
+</head>
+<body>
+    
+    <h1 align="center"><font color="#e73e1b" size="50px">用户留言簿</font></h1>
+    <hr width="90%" size="3px" align="center" color="#e73e1b"/>
+    <br/>
+    <form action="#" method="get">
+    <table border="1" width="100%" cellspacing="1">
+        <tr>
+            <td width="100px">用 户 名：</td>
+            <td><input name="userName" type="text"></td>
+            <td width="70px">密 码：</td>
+            <td><input name="userPwd" type="password"></td>
+        </tr>
+
+        <tr>
+            <td>电 子 邮 箱：</td>
+            <td><input name="email" type="text"></td>
+            <td>民 族：</td>
+            <td>
+                <select name="nation">
+                    <option disabled selected>民族</option>
+                    <option value="han">汉族</option>
+                    <option value="zhuang">壮族</option>
+                    <option value="hui">回族</option>
+                    <option value="wei">维吾尔族</option>
+                    <option value="other">其他民族</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>性 别：</td>
+            <td>
+                <input name="gender" type="radio" value="male">男
+                <input name="gender" type="radio" value="female">女
+            </td>
+            <td>爱 好：</td>
+            <td>
+                <input name="hobby" type="checkbox" value="basketball">篮球
+                <input name="hobby" type="checkbox" value="football">足球
+                <input name="hobby" type="checkbox" value="volleyball">排球
+                <input name="hobby" type="checkbox" value="other">其他
+            </td>
+        </tr>
+        <tr>
+            <td>留 言：</td>
+            <td align="center"colspan="7"><textarea name="desc" wrap="hard" rows="5" cols="40" placeholder="请输入你的留言"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center"><input type="submit" value="确定">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="重写"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片轮播</title>
+    <style>
+        div{
+            width: 230px;
+            height: 230px;
+            margin: auto;
+            margin-top: 10%;
+        }
+        img{
+            position: relative;
+            width: 230px;
+            height: 230px;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="img/skill1.png" alt="" id="img">
+        <p id="index">第一张</p>
+    </div>
+
+    <script>
+        var index = 0;
+        var num = 5;
+
+        setInterval(change, 1000);
+
+        function change(){
+            index = (++index) % num;
+            // console.log(index);
+            switch (index){
+                case 0:
+                    document.getElementById("img").src = "img/skill1.png";
+                    document.getElementById("index").innerHTML = "第一张";
+                    break;
+                case 1:
+                    document.getElementById("img").src = "img/skill2.png";
+                    document.getElementById("index").innerHTML = "第二张";
+                    break;
+                case 2:
+                    document.getElementById("img").src = "img/skill3.png";
+                    document.getElementById("index").innerHTML = "第三张";
+                    break;
+                case 3:
+                    document.getElementById("img").src = "img/skill4.png";
+                    document.getElementById("index").innerHTML = "第四张";
+                    break;
+                case 4:
+                    document.getElementById("img").src = "img/skill5.png";
+                    document.getElementById("index").innerHTML = "第五张";
+                    break;
+            }
+        }
+    </script>
+
+</body>
+</html>

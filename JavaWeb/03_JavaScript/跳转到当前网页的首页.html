@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        p span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <p><span id="t">5</span>秒后，跳转到首页</p>
+    <script>
+
+        setInterval("changeTime()",1000);
+        let time = document.getElementById("t");
+
+        function changeTime(start){
+            let second = time.innerHTML;
+            if (second == '0'){
+                location.href = "";
+            }
+            second = --time.innerHTML + "";
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>按钮</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <style>
+        .btn{
+            color: white;
+            font-size: 15px;
+
+            background-color: #cccccc;
+            padding: 10px;
+
+            box-shadow: #444444 0px 9px ;
+
+            border: none;
+            border-radius: 15px;
+
+        }
+        .btn:hover{
+            background-color: orange;
+
+        }
+        .btn:active{
+            box-shadow: #444444 0px 5px ;
+            transform: translateY(4px);
+        }
+        .div{
+            width: 200px;
+            height: 200px;
+            background-color: #e78500;
+            cursor: move;
+        }
+
+
+
+    </style>
+
+    <script>
+        function f(event){
+            console.log(event)
+            let key = event.key;
+            switch (key){
+                case 'q':
+                    console.log(1)
+                    document.getElementById('div').
+                    break;
+
+
+
+            }
+
+        }
+
+
+    </script>
+</head>
+<body onkeyup="f(event)">
+    <div class="div" id="div" ondragstart="alert(111)">111</div>
+
+    <button class="btn" ondragstart="alert(111)"><span class="glyphicon glyphicon-resize-full"></span>点我</button>
+
+
+    <button type="button" class="btn btn-default" aria-label="Left Align">
+        <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+    </button>
+</body>
+</html>

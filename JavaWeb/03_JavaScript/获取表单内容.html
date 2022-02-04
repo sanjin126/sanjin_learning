@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <script>
+        function add(){
+            var a,b;
+            a = window.document.f1.t1.value;
+            b = window.document.f1.t2.value;
+            window.document.f1.t3.value = Number(a) + Number(b);
+            var c = console.log(document.all);
+            c = Array(c);
+            console.log(c[1]);
+        }
+
+    </script>
+</head>
+<body>
+    <form action="#" method="get" name="f1">
+        <input type="text" id="one" name="t1">+<input type="text" id="two" name="t2">
+        =<input type="text" id="asr" name="t3">
+        <input type="button" value="计算" onclick="add()">
+
+    </form>
+
+</body>
+</html>

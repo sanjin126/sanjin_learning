@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Location</title>
+</head>
+<body>
+
+    <input id = "go" type="button" value="去百度">
+    <input id="refresh" type="button" value="刷新">
+
+    <script>
+        document.getElementById("go").onclick = function (){
+            location.href = "https://baidu.com";
+        }
+        document.getElementById("refresh").onclick = function () {
+            location.reload();
+        }
+
+    </script>
+</body>
+</html>

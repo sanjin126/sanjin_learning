@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <a>点我试试</a>
+    <input type="button" onclick="set()" value="set">
+    <input type="button" onclick="remove()" value="remove">
+    <script>
+        let a = document.getElementsByTagName('a')[0];
+        function set(){
+            a.setAttribute('href','https://baidu.com');
+        }
+        function remove(){
+            a.removeAttribute('href');
+        }
+    </script>
+</body>
+</html>

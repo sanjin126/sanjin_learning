@@ -1,0 +1,21 @@
+.btn{
+    color: seagreen;
+    font-size: 15px;
+
+    background-color: #cccccc;
+    padding: 10px;
+
+    box-shadow: #444444 0px 9px ;
+
+    border: none;
+    border-radius: 15px;
+
+}
+.btn:hover{
+    background-color: orange;
+
+}
+.btn:active{
+    box-shadow: #444444 0px 5px ;
+    transform: translateY(4px);
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            document.getElementById("code").onclick = function () {
+                let time = new Date().getTime();
+                this.src = "/servlet/respDemoCode?"+time;
+            }
+        }
+    </script>
+</head>
+<body>
+    <img src="/servlet/respDemoCode" alt="验证码" id="code">
+    <form action="/servlet/login" method="get">
+        <input type="text" placeholder="验证码" name="idcode">
+        <input type="submit" value="确认">
+
+    </form>
+</body>
+</html>

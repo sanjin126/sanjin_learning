@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外边距和内边距</title>
+    <style>
+        /*body{*/
+        /*    padding: 100px;*/
+        /*}*/
+        div{
+            border: dotted red;
+            width: 250px;
+            height: 250px;
+            background-color: chartreuse;
+            box-shadow: 10px 10px aqua;
+        }
+        div:hover{
+            background-color: antiquewhite;
+        }
+        /*div.div1{*/
+        /*    width: 200px;*/
+        /*    height: 200px;*/
+        /*    padding: 50px;*/
+        /*    color: blue;*/
+        /*}*/
+        div div{
+            color: chartreuse;
+        }
+        .div2{
+            width: 100px;
+            height: 100px;
+            /*margin: 50px;*/
+
+        }
+        #div1{
+            float: left;
+        }
+        #div2{
+            float: left;
+        }
+        #div3{
+            float: left;
+            border: solid blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="div1">
+        <div class="div2">0.50.50.5</div>
+    </div>
+    <div id="div1">111</div>
+    <div id="div2">222</div>
+    <div id="div3">333</div>
+    <p class="div1">444</p>
+</body>
+</html>

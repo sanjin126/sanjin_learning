@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_HTML/01_HTML.iml" filepath="$PROJECT_DIR$/01_HTML/01_HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_CSS/02_CSS.iml" filepath="$PROJECT_DIR$/02_CSS/02_CSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_JavaScript/03_JavaScript.iml" filepath="$PROJECT_DIR$/03_JavaScript/03_JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_BootStrap/04_BootStrap.iml" filepath="$PROJECT_DIR$/04_BootStrap/04_BootStrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_XML/05_XML.iml" filepath="$PROJECT_DIR$/05_XML/05_XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_Servlet/06_Servlet.iml" filepath="$PROJECT_DIR$/06_Servlet/06_Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_Thymleaf/07_Thymleaf.iml" filepath="$PROJECT_DIR$/07_Thymleaf/07_Thymleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_fileter&amp;listener/08_fileter&amp;listener.iml" filepath="$PROJECT_DIR$/08_fileter&amp;listener/08_fileter&amp;listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Thymleaf_DIspacherServlet/09_Thymleaf_DIspacherServlet.iml" filepath="$PROJECT_DIR$/09_Thymleaf_DIspacherServlet/09_Thymleaf_DIspacherServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Thymleaf_IOC/10_Thymleaf_IOC.iml" filepath="$PROJECT_DIR$/10_Thymleaf_IOC/10_Thymleaf_IOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSP/JSP.iml" filepath="$PROJECT_DIR$/JSP/JSP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tomcat/Tomcat.iml" filepath="$PROJECT_DIR$/Tomcat/Tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
