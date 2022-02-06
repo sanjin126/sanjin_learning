@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/08_fileter&amp;listener/08_fileter&amp;listener.iml" filepath="$PROJECT_DIR$/08_fileter&amp;listener/08_fileter&amp;listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_Thymleaf_DIspacherServlet/09_Thymleaf_DIspacherServlet.iml" filepath="$PROJECT_DIR$/09_Thymleaf_DIspacherServlet/09_Thymleaf_DIspacherServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_Thymleaf_IOC/10_Thymleaf_IOC.iml" filepath="$PROJECT_DIR$/10_Thymleaf_IOC/10_Thymleaf_IOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_project_qqzone/11_project_qqzone.iml" filepath="$PROJECT_DIR$/11_project_qqzone/11_project_qqzone.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSP/JSP.iml" filepath="$PROJECT_DIR$/JSP/JSP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />

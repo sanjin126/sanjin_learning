@@ -69,6 +69,7 @@ public class DispatcherServlet extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
 
+
         String servletPath = req.getServletPath();
         String substring = servletPath.substring(1);
         //获取到url中的对应controller

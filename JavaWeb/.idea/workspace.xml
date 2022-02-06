@@ -2,43 +2,22 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="09_Thymleaf_DIspacherServlet:war exploded" />
+      <artifact name="11_project_qqzone:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5f893d5-b781-439d-b12f-d5a334edecd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02_CSS/02_CSS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_JavaScript/03_JavaScript.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Tomcat_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/10_Thymleaf_IOC_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1e4d14e2-3510-4eb8-b4c0-22a835ee4288.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1e4d14e2-3510-4eb8-b4c0-22a835ee4288.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/HTML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/01_HTML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/exec1_LOL.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/exec1_LOL.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/exec2_LOL.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/exec2_LOL.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/exec3_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/exec3_register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/exec4_heima.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/exec4_heima.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/homework/第一次作业/work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/homework/第一次作业/work1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/homework/第一次作业/work1.png" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/homework/第一次作业/work1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/homework/第一次作业/work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/homework/第一次作业/work2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/homework/第一次作业/work2.png" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/homework/第一次作业/work2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/homework/第一次作业/work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/homework/第一次作业/work3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/homework/第一次作业/work3.png" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/homework/第一次作业/work3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/homework/第一次作业/王鑫201984240220.zip" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/homework/第一次作业/王鑫201984240220.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/model.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/resource/img/skill1.png" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/resource/img/skill1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/resource/img/skill2.png" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/resource/img/skill2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/resource/img/skill3.png" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/resource/img/skill3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/resource/img/skill4.png" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/resource/img/skill4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/resource/img/skill5.png" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML/resource/img/skill5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/Tomcat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04_BootStrap/04_BootStrap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Tomcat_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Tomcat_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Thymleaf/07_Thymleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/07_Thymleaf/07_Thymleaf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_fileter&amp;listener/08_fileter&amp;listener.iml" beforeDir="false" afterPath="$PROJECT_DIR$/08_fileter&amp;listener/08_fileter&amp;listener.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Thymleaf_DIspacherServlet/09_Thymleaf_DIspacherServlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09_Thymleaf_DIspacherServlet/09_Thymleaf_DIspacherServlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Thymleaf_IOC/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10_Thymleaf_IOC/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Thymleaf_IOC/src/com/sanjin/myspringmvc/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/10_Thymleaf_IOC/src/com/sanjin/myspringmvc/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP/JSP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JSP/JSP.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +36,7 @@
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -95,22 +75,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10_Thymleaf_IOC/09_Thymleaf_IOC.iml" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/dao" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28699106" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/10_Thymleaf_IOC/web" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/07_Thymleaf" />
-      <recent name="$PROJECT_DIR$/07_Thymleaf/web/WEB-INF/lib" />
-      <recent name="$PROJECT_DIR$/08_fileter&amp;listener/web" />
+      <recent name="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/dao" />
+      <recent name="$PROJECT_DIR$/11_project_qqzone/src" />
+      <recent name="$PROJECT_DIR$/11_project_qqzone/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/myssm" />
+      <recent name="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/10_Thymleaf_IOC" />
@@ -202,15 +182,15 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/10/fruit.do" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/11/user.do" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="10_Thymleaf_IOC:Web exploded">
+        <artifact name="11_project_qqzone:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/10" />
+            <option name="CONTEXT_PATH" value="/11" />
           </settings>
         </artifact>
       </deployment>
@@ -288,7 +268,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="10_Thymleaf_IOC:Web exploded" />
+          <artifact name="11_project_qqzone:war exploded" />
         </option>
       </method>
     </configuration>
@@ -441,7 +421,9 @@
       <workItem from="1643819989185" duration="995000" />
       <workItem from="1643895253320" duration="13298000" />
       <workItem from="1643971717694" duration="539000" />
-      <workItem from="1643982650020" duration="4365000" />
+      <workItem from="1643982650020" duration="5081000" />
+      <workItem from="1644067377336" duration="1549000" />
+      <workItem from="1644137910809" duration="10880000" />
     </task>
     <servers />
   </component>
@@ -467,6 +449,11 @@
           <url>file://$PROJECT_DIR$/test/src/test/Son.java</url>
           <line>15</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/controller/UserController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
