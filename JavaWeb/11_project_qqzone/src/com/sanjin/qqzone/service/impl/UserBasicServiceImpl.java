@@ -4,6 +4,8 @@ import com.sanjin.qqzone.dao.UserBasicDAO;
 import com.sanjin.qqzone.pojo.UserBasic;
 import com.sanjin.qqzone.service.UserBasicService;
 
+import java.util.List;
+
 /**
  * @author sanjin
  * @date 2022/2/6 下午10:51
@@ -18,4 +20,17 @@ public class UserBasicServiceImpl implements UserBasicService {
         UserBasic userBasic = dao.getUserBasic(loginId, pwd);
         return userBasic;
     }
+
+    @Override
+    public List<UserBasic> getFriendList(UserBasic userBasic) {
+        List<UserBasic> userBasicList = dao.getUserBasicList(userBasic);
+        return userBasicList;
+    }
+
+    @Override
+    public UserBasic getUserBasicById(Integer id) {
+        return dao.getUserBasicById(id);
+    }
+
+
 }

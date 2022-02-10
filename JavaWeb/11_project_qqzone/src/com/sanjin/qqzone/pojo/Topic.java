@@ -1,18 +1,20 @@
 package com.sanjin.qqzone.pojo;
 
-import java.util.Date;
+import java.sql.Timestamp;
 import java.util.List;
 
 public class Topic {
     private Integer id ;
     private String title ;
     private String content ;
-    private Date topicDate ;
+    private Timestamp topicDate ;
     private UserBasic author ;          //M:1
 
     private List<Reply> replyList ;     //1:N
 
     public Topic(){}
+
+    public Topic(Integer id){this.id = id;}
 
     public Integer getId() {
         return id;
@@ -38,11 +40,11 @@ public class Topic {
         this.content = content;
     }
 
-    public Date getTopicDate() {
+    public Timestamp getTopicDate() {
         return topicDate;
     }
 
-    public void setTopicDate(Date topicDate) {
+    public void setTopicDate(Timestamp topicDate) {
         this.topicDate = topicDate;
     }
 

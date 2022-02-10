@@ -16,6 +16,9 @@ public class TopicDAOImpl extends BaseDAO<Topic> implements TopicDAO {
     @Override
     public List<Topic> getTopicList(UserBasic userBasic) {
         String sql = "select * from t_topic where author=?";
+//        Object[] objects = executeComplexQuery("select * from t_topic where id=3");
+//        System.out.println("objects = " + objects[3]);
+//        new Topic().setTopicDate((Timestamp) objects[3]);
         return executeQuery(sql, userBasic.getId());
     }
 

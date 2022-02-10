@@ -105,6 +105,7 @@ public abstract class BaseDAO<T> {
         return "java.lang.Integer".equals(typeName)
                 || "java.lang.String".equals(typeName)
                 || "java.util.Date".equals(typeName)
+                || "java.sql.Timestamp".equals(typeName)
                 || "java.sql.Date".equals(typeName);
     }
 
