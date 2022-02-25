@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <table id="table" border="1" style="border-collapse: collapse">
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>addr</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+<script>
+    let tableTab = document.getElementById('table');
+
+    axios({
+        method:"get",
+        url:"http://localhost:8080/12_AJAX_war_exploded/UserInfoServlet"
+    }).then(function (resp) {
+        let userList = resp.data;
+        for (var i=0; i<userList.length;i++){
+            var inner = '<td>'+userList[i].name+'</td>'
+                        +'<td>'+userList[i].age+'</td>'
+                        +'<td>'+userList[i].addr+'</td>';
+            tableTab.innerHTML+=inner;
+        }
+    })
+</script>
+
+</html>

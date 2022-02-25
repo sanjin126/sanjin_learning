@@ -1,0 +1,5 @@
+sanjin/dao/UserDAO.class
+sanjin/dao/impl/UserDAOImpl.class
+sanjin/domain/User.class
+sanjin/service/UserService.class
+sanjin/service/impl/UserServiceImpl.class

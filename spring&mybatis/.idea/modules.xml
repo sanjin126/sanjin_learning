@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_spring-ioc/01_spring-ioc.iml" filepath="$PROJECT_DIR$/01_spring-ioc/01_spring-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_spring-ioc-anno/02_spring-ioc-anno.iml" filepath="$PROJECT_DIR$/02_spring-ioc-anno/02_spring-ioc-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_spring-ioc-web/03_spring-ioc-web.iml" filepath="$PROJECT_DIR$/03_spring-ioc-web/03_spring-ioc-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_mybatis-quick/_mybatis-quick.iml" filepath="$PROJECT_DIR$/_mybatis-quick/_mybatis-quick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring&amp;mybatis.iml" filepath="$PROJECT_DIR$/spring&amp;mybatis.iml" />
+    </modules>
+  </component>
+</project>

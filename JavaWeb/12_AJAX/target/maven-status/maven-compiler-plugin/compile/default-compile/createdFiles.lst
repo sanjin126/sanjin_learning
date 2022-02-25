@@ -1,0 +1,5 @@
+json/JSONDemo.class
+com/sanjin/servlet/AjaxServlet.class
+com/sanjin/servlet/UserInfoServlet.class
+com/sanjin/servlet/SelectUserServlet.class
+pojo/User.class

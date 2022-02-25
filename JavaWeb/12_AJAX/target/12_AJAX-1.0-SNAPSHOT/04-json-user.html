@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+<script>
+    axios({
+        method:"get",
+        url:"http://localhost:8080/12_AJAX_war_exploded/UserInfoServlet"
+    }).then(function (resp) {
+        console.log(JSON.parse(resp.data))
+    })
+</script>
+
+</html>

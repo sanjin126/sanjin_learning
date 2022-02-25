@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>秒杀</title>
+    <style>
+        iframe{
+            width: 1300px;
+            height: 700px;
+        }
+    </style>
+
+
+</head>
+<body>
+<!--    <iframe src="https://detail.tmall.com/item.htm?spm=a220l.1.0.0.2eb57f33y5Acg1&id=668789447044" frameborder="0"></iframe>-->
+    <iframe id="iframe" src="https://detail.tmall.com/item.htm?spm=a220o.1000855.1998025129.2.275a7b71548vm7&id=668423458748&scm=1007.12144.95220.23864_0_0&pvid=1eda65c1-744d-4e2d-bf10-bc2f95d378c3&utparam=%7B%22x_hestia_source%22:%2223864%22,%22x_object_type%22:%22item%22,%22x_hestia_subsource%22:%22default%22,%22x_mt%22:5,%22x_src%22:%2223864%22,%22x_pos%22:2,%22wh_pid%22:-1,%22x_pvid%22:%221eda65c1-744d-4e2d-bf10-bc2f95d378c3%22,%22scm%22:%221007.12144.95220.23864_0_0%22,%22x_object_id%22:668423458748%7D" frameborder="0"></iframe>
+    <a href="#" id="a1"></a>
+</body>
+<script>
+
+
+    function buy() {
+        try {
+        document.querySelector("#J_LinkBuy").click();
+        document.querySelector("#submitOrderPC_1 > div > a").click();
+        } catch (e) {
+        document.querySelector("#submitOrderPC_1 > div > a").click();
+        } finally {
+        document.querySelector("#submitOrderPC_1 > div > a").click();
+        }
+    }
+    setInterval(buy,1000);
+
+</script>
+</html>

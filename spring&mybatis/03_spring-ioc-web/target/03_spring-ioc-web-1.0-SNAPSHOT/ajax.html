@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $(function () {
+            $("#btn").click(function () {
+                let name = $("#name").val();
+                let addr = $("#addr").val();
+                let array = new Array();
+                array.push({name:name,addr:addr});
+                array.push({name:name,addr:addr});
+                $.ajax({
+                    type:"post",
+                    url:"http://localhost:8080/03_spring_ioc_web_1_0_SNAPSHOT_war/req4",
+                    data:JSON.stringify(array)
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+<input name="name" id="name">
+<input name="addr" id="addr">
+    <button  id="btn" >click</button>
+</body>
+</html>

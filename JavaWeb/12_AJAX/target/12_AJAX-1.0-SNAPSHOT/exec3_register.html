@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+    <form>
+        <table border="1">
+        <tr>
+        <td align="center" >
+            用户名：<input type="text" placeholder="请输入用户名" id="userName">
+        </td>
+        <td id="userNameError">
+
+        </td>
+        </tr>
+        <tr>
+        <td align="center">
+            密码：<input type="text">
+        </td>
+        </tr>
+
+
+        <div>
+            确认密码：<input type="text">
+        </div>
+
+        <div>
+            Email：<input type="text">
+        </div>
+
+        <div>
+            姓名：<input type="text">
+        </div>
+        <div>
+            性别：
+            <select>
+                <option selected>男</option>
+                <option>女</option>
+            </select>
+        </div>
+        <div>
+            生日：
+            <select><option>2001</option></select>
+            <select><option>1</option></select>
+            <select><option>26</option></select>
+        </div>
+        <div>
+            手机：
+            <input type="text">
+        </div>
+        </table>
+    </form>
+
+
+</body>
+<script>
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+    {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+    }
+    else
+    {// code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
+
+    let userNameTag = document.getElementById("userName");
+    userNameTag.onblur = function () {
+        let userName = userNameTag.value;
+        xmlhttp.open("GET",
+            "http://localhost:8080/12_AJAX_war_exploded/selectUserServlet?userName="+userName
+            ,true);
+        xmlhttp.send();
+
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                var flag = xmlhttp.responseText;
+                if (flag == 'false'){
+                    document.getElementById("userNameError").innerHTML = '用户名重复了，换一个吧';
+                } else {
+                    document.getElementById("userNameError").innerHTML = '';
+                }
+            }
+        }
+    }
+</script>
+</html>

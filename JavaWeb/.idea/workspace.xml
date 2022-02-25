@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="11_project_qqzone:war exploded" />
+      <artifact name="12_AJAX:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,47 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5f893d5-b781-439d-b12f-d5a334edecd6" name="Default Changelist" comment="mvc-learn">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1e4d14e2-3510-4eb8-b4c0-22a835ee4288.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1e4d14e2-3510-4eb8-b4c0-22a835ee4288.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/11_project_qqzone_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/myssm/basedao/BaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/myssm/basedao/BaseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/dao/HostReplyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/dao/HostReplyDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/dao/impl/TopicDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/dao/impl/TopicDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/pojo/HostReply.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/pojo/HostReply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/pojo/Reply.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/pojo/Reply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/pojo/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/pojo/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/service/UserBasicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/service/UserBasicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/service/impl/UserBasicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/service/impl/UserBasicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/web/frames/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/web/frames/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/web/frames/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/web/frames/left.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/web/frames/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/web/frames/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/web/frames/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/web/frames/top.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_project_qqzone/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/myssm/basedao/BaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/myssm/basedao/BaseDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/dao/HostReplyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/dao/HostReplyDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/dao/impl/TopicDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/dao/impl/TopicDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/pojo/HostReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/pojo/HostReply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/pojo/Reply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/pojo/Reply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/pojo/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/pojo/Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/service/UserBasicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/service/UserBasicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/service/impl/UserBasicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/WEB-INF/classes/com/sanjin/qqzone/service/impl/UserBasicServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/frames/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/frames/left.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/frames/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/frames/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/frames/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/frames/top.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/11_project_qqzone_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/myssm/basedao/BaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/myssm/basedao/BaseDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/dao/HostReplyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/dao/HostReplyDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/dao/impl/TopicDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/dao/impl/TopicDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/pojo/HostReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/pojo/HostReply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/pojo/Reply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/pojo/Reply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/pojo/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/pojo/Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/service/UserBasicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/service/UserBasicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/service/impl/UserBasicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11_project_qqzone/com/sanjin/qqzone/service/impl/UserBasicServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_fileter&amp;listener/08_fileter&amp;listener.iml" beforeDir="false" afterPath="$PROJECT_DIR$/08_fileter&amp;listener/08_fileter&amp;listener.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Thymleaf_IOC/10_Thymleaf_IOC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/10_Thymleaf_IOC/10_Thymleaf_IOC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_project_qqzone/11_project_qqzone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11_project_qqzone/11_project_qqzone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/10_Thymleaf_IOC/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_Thymleaf_IOC/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/10_Thymleaf_IOC/com/sanjin/myspringmvc/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_Thymleaf_IOC/com/sanjin/myspringmvc/DispatcherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web/WEB-INF/classes/com/zzunews/servlet/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/web/WEB-INF/classes/com/zzunews/servlet/MyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web/WEB-INF/classes/com/zzunews/servlet/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/web/WEB-INF/classes/com/zzunews/servlet/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web/WEB-INF/classes/test/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/web/WEB-INF/classes/test/Son.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/浙江大学/PTA/tempCodeRunnerFile.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +41,9 @@
         <option value="HTTP Request" />
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -92,6 +65,15 @@
     <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/usr/local/apache-maven-3.8.4/mvn-repo" />
+        <option name="mavenHome" value="/usr/local/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="/usr/local/apache-maven-3.8.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="235W0jvONNGmFtJtLsRjt8bArhO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -109,28 +91,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/12_AJAX/src/main/webapp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28699106" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/12_AJAX/src/main/webapp" />
       <recent name="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/qqzone/dao" />
       <recent name="$PROJECT_DIR$/11_project_qqzone/src" />
       <recent name="$PROJECT_DIR$/11_project_qqzone/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/myssm" />
-      <recent name="$PROJECT_DIR$/11_project_qqzone/src/com/sanjin/pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/12_AJAX/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/12_AJAX/src/main" />
+      <recent name="$PROJECT_DIR$/maven-web/src/main/webapp" />
       <recent name="$PROJECT_DIR$/10_Thymleaf_IOC" />
       <recent name="$PROJECT_DIR$/07_Thymleaf" />
-      <recent name="$PROJECT_DIR$/07_Thymleaf/web" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/06_Servlet/web" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.sanjin.dao" />
@@ -154,23 +136,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsoupDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JsoupDemo2" />
-      <module name="05_XML" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjin.HelloWorld" />
+      <module name="maven-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanjin.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsoupDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JsoupDemo3" />
-      <module name="05_XML" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsoupDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JsoupDemo4" />
-      <module name="05_XML" />
+    <configuration name="JSONDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json.JSONDemo" />
+      <module name="12_AJAX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,27 +188,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="HelloTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanjin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sanjin.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sanjin.test.HelloTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/11/user.do" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/12_AJAX_war_exploded/hello.html" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="11_project_qqzone:war exploded">
+        <artifact name="12_AJAX:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/11" />
+            <option name="CONTEXT_PATH" value="/12_AJAX_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -299,7 +290,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="11_project_qqzone:war exploded" />
+          <artifact name="12_AJAX:war exploded" />
         </option>
       </method>
     </configuration>
@@ -382,20 +373,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.JsoupDemo2" />
-      <item itemvalue="Application.JsoupDemo3" />
-      <item itemvalue="Application.JsoupDemo4" />
       <item itemvalue="Application.FruitDAOImpl" />
       <item itemvalue="Application.Son" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.JSONDemo" />
+      <item itemvalue="JUnit.HelloTest.test" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.73" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JSONDemo" />
+        <item itemvalue="JUnit.HelloTest.test" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Son" />
         <item itemvalue="Application.FruitDAOImpl" />
-        <item itemvalue="Application.JsoupDemo4" />
-        <item itemvalue="Application.JsoupDemo3" />
-        <item itemvalue="Application.JsoupDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -458,6 +449,9 @@
       <workItem from="1644310110733" duration="5594000" />
       <workItem from="1644331704986" duration="10226000" />
       <workItem from="1644406631170" duration="3358000" />
+      <workItem from="1644476854816" duration="707000" />
+      <workItem from="1644480786772" duration="20671000" />
+      <workItem from="1644737034466" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="mvc-learn">
       <created>1644164277885</created>

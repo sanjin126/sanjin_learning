@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maven-java" />
+        <module name="maven-web" />
+        <module name="12_AJAX" />
+        <module name="maven-web1" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="12_AJAX" target="8" />
       <module name="JavaWeb" target="" />
+      <module name="maven-java" target="8" />
+      <module name="maven-web" target="8" />
+      <module name="maven-web1" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="12_AJAX" options="" />
+      <module name="maven-java" options="" />
+      <module name="maven-web" options="" />
+      <module name="maven-web1" options="" />
+    </option>
   </component>
 </project>

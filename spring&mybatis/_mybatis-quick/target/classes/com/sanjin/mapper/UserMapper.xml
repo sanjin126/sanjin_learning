@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sanjin.dao.UserMapper">
+    <select id="findAll" resultType="user">
+        select * from user
+    </select>
+
+    <select id="findById" resultType="user" parameterType="int">
+        select * from user where id=#{id}
+    </select>
+
+
+    <select id="findByCondition" resultType="user" parameterType="user">
+        select * from user
+        <where>
+            <if test="id!=0">id=#{id}</if>
+
+            <if test="username!=null">and username=#{username}</if>
+
+            <if test="password!=null">and password=#{password}</if>
+        </where>
+    </select>
+
+    <select id="findByIds" parameterType="list" resultType="user">
+        select * from user
+        <where>
+            <foreach collection="list" open="id in(" close=")" separator="," item="id">
+                #{id}
+            </foreach>
+        </where>
+    </select>
+
+    <insert id="save" parameterType="user" >
+        insert into user values (#{id},#{username},#{password},#{birthday})
+    </insert>
+</mapper>

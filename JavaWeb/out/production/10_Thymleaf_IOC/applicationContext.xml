@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <beans>
+
+    <bean id="fruitDAO" class="com.sanjin.dao.impl.FruitDAOImpl"/>
+
+    <bean id="fruitService" class="com.sanjin.service.impl.FruitServiceImpl"/>
+
     <bean id="fruit" class="com.sanjin.controllers.FruitController"/>
 
 </beans>

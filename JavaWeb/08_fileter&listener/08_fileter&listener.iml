@@ -21,5 +21,22 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.73" level="application_server_libraries" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../09_Thymleaf_DIspacherServlet/web/WEB-INF/lib/ognl-3.1.26.jar!/" />
+          <root url="jar://$MODULE_DIR$/../09_Thymleaf_DIspacherServlet/web/WEB-INF/lib/servlet-api.jar!/" />
+          <root url="jar://$MODULE_DIR$/../09_Thymleaf_DIspacherServlet/web/WEB-INF/lib/slf4j-api-1.7.25.jar!/" />
+          <root url="jar://$MODULE_DIR$/../09_Thymleaf_DIspacherServlet/web/WEB-INF/lib/javassist-3.20.0-GA.jar!/" />
+          <root url="jar://$MODULE_DIR$/../09_Thymleaf_DIspacherServlet/web/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../09_Thymleaf_DIspacherServlet/web/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../09_Thymleaf_DIspacherServlet/web/WEB-INF/lib/thymeleaf-3.0.14.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../09_Thymleaf_DIspacherServlet/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
