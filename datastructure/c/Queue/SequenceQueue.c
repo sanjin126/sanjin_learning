@@ -11,17 +11,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include "SequenceQueue.h"
 
-#define MAXSIZE 100
-#define OVERFLOW -2
-
-typedef int ElemType;
-typedef struct SeqQueue{
-    int front; //头指针
-    int rear; //尾指针
-    ElemType *data;
-    int StackSize;
-} *Queue;
 
 Queue InitQueue(Queue Q)
 {
@@ -29,7 +20,7 @@ Queue InitQueue(Queue Q)
     if (!Q)
         exit(OVERFLOW);
     //成员初始化
-    Q->data = malloc(sizeof(ElemType) * MAXSIZE);
+    Q->data = malloc(sizeof(Generics) * MAXSIZE);
     if (!Q->data)
         exit(OVERFLOW);
     Q->StackSize = MAXSIZE;
@@ -42,19 +33,19 @@ int GetQLength(Queue Q)
     return (Q->rear+Q->StackSize-Q->front)%Q->StackSize; //注意rear越过队列末尾到front前面的情况
 }
 
-bool IsFull(Queue Q)
+bool Q_IsFull(Queue Q)
 {
     return (Q->rear + 1) %Q->StackSize == Q->front;
 }
 
-bool IsEmpty(Queue Q)
+bool Q_IsEmpty(Queue Q)
 {
     return (Q->front == Q->rear);
 }
 
-bool EnQueue(Queue Q, ElemType e)
+bool EnQueue(Queue Q, Generics e)
 {
-    if (IsFull(Q))
+    if (Q_IsFull(Q))
         return false;
     else
     {
@@ -64,9 +55,9 @@ bool EnQueue(Queue Q, ElemType e)
     }
 }
 
-bool DeQueue(Queue Q, ElemType *PtrToData)
+bool DeQueue(Queue Q, Generics *PtrToData)
 {
-    if (IsEmpty(Q))
+    if (Q_IsEmpty(Q))
         return false;
     else
     {
@@ -78,7 +69,7 @@ bool DeQueue(Queue Q, ElemType *PtrToData)
 
 bool ClearQueue(Queue Q)
 {
-    if (IsEmpty(Q))
+    if (Q_IsEmpty(Q))
         return false;
     Q->front = Q->rear = 0;
     return true;

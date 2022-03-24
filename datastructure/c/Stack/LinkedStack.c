@@ -12,13 +12,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include "LinkedStack.h"
 
-#define OVERFLOW -2
-typedef int ElemType;
-typedef struct SNode{
-    ElemType data;
-    struct SNode *next;
-} SNode, *Stack; //一个节点类型， 一个指向栈的指针
 
 /* 建立一个带头节点的链栈 */
 Stack InitStack(Stack S)
@@ -55,7 +50,7 @@ bool ClearStack(Stack S)
     return true;
 }
 
-bool Push(Stack S, ElemType e)
+bool Push(Stack S, Generics e)
 {
     SNode *TmpCell = malloc(sizeof(SNode));
 
@@ -65,7 +60,7 @@ bool Push(Stack S, ElemType e)
     return true;
 }
 
-bool Pop(Stack S, ElemType *PtrToData)
+bool Pop(Stack S, Generics *PtrToData)
 {
     SNode *TmpCell;
 
