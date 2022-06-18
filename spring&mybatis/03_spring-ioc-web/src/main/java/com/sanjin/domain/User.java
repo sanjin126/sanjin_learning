@@ -1,5 +1,7 @@
 package com.sanjin.domain;
 
+import java.util.Date;
+
 /**
  * @author sanjin
  * @date 2022/2/13 下午5:16
@@ -8,12 +10,22 @@ package com.sanjin.domain;
 public class User {
     private String name;
     private String addr;
+    private Date date;
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
 
     @Override
     public String toString() {
         return "User{" +
                 "name='" + name + '\'' +
                 ", addr='" + addr + '\'' +
+                ", date=" + date +
                 '}';
     }
 

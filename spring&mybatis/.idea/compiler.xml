@@ -10,6 +10,9 @@
         <module name="01_spring-ioc" />
         <module name="02_spring-ioc-anno" />
         <module name="_mybatis-quick" />
+        <module name="maven_dao" />
+        <module name="maven_service" />
+        <module name="maven_controller" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +20,10 @@
       <module name="02_spring-ioc-anno" target="8" />
       <module name="03_spring-ioc-web" target="8" />
       <module name="_mybatis-quick" target="8" />
+      <module name="maven_controller" target="1.8" />
+      <module name="maven_dao" target="1.8" />
+      <module name="maven_parent" target="8" />
+      <module name="maven_service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

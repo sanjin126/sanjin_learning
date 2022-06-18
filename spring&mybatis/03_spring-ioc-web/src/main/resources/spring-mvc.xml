@@ -16,9 +16,25 @@
 <!--            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"></bean>-->
 <!--        </property>-->
 <!--    </bean>-->
-    <mvc:annotation-driven/>
+    <mvc:annotation-driven conversion-service="conversionService"/>
     <mvc:default-servlet-handler/>
-    <mvc:cors>
-        <mvc:mapping path="/**" allow-credentials="true" max-age="1800" allowed-methods="*" allowed-headers="Content-Type"/>
-    </mvc:cors>
+<!--    <mvc:cors>-->
+<!--        <mvc:mapping path="/**" allow-credentials="true" max-age="1800" allowed-methods="*" allowed-headers="Content-Type"/>-->
+<!--    </mvc:cors>-->
+
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        
+        <property name="converters">
+            <list>
+                <bean class="com.sanjin.conventer.StringToDateConventer"/>
+            </list>
+        </property>
+    </bean>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.sanjin.interceptor.MyInterceptor1"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

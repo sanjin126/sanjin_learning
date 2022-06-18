@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$USER_HOME$/Desktop/maven_parent/maven_parent" />
     <file type="web" url="file://$PROJECT_DIR$/03_spring-ioc-web" />
     <file type="web" url="file://$PROJECT_DIR$/_mybatis-quick" />
   </component>
@@ -11,6 +12,7 @@
         <option value="$PROJECT_DIR$/02_spring-ioc-anno/pom.xml" />
         <option value="$PROJECT_DIR$/03_spring-ioc-web/pom.xml" />
         <option value="$PROJECT_DIR$/_mybatis-quick/pom.xml" />
+        <option value="$USER_HOME$/Desktop/maven_parent/maven_parent/pom.xml" />
       </list>
     </option>
   </component>

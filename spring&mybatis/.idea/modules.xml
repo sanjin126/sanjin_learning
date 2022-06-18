@@ -6,6 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/02_spring-ioc-anno/02_spring-ioc-anno.iml" filepath="$PROJECT_DIR$/02_spring-ioc-anno/02_spring-ioc-anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_spring-ioc-web/03_spring-ioc-web.iml" filepath="$PROJECT_DIR$/03_spring-ioc-web/03_spring-ioc-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/_mybatis-quick/_mybatis-quick.iml" filepath="$PROJECT_DIR$/_mybatis-quick/_mybatis-quick.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/maven_parent/maven_parent/maven_controller/maven_controller.iml" filepath="$USER_HOME$/Desktop/maven_parent/maven_parent/maven_controller/maven_controller.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/maven_parent/maven_parent/maven_dao/maven_dao.iml" filepath="$USER_HOME$/Desktop/maven_parent/maven_parent/maven_dao/maven_dao.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/maven_parent/maven_parent/maven_parent.iml" filepath="$USER_HOME$/Desktop/maven_parent/maven_parent/maven_parent.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/maven_parent/maven_parent/maven_service/maven_service.iml" filepath="$USER_HOME$/Desktop/maven_parent/maven_parent/maven_service/maven_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring&amp;mybatis.iml" filepath="$PROJECT_DIR$/spring&amp;mybatis.iml" />
     </modules>
   </component>
